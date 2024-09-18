@@ -1,0 +1,81 @@
+<!--Webpage about the usage of links,images,bookmarks,videos and audios and some css-->
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <title>SIMPLE WEB</title>
+  </header>
+  <style>
+    .body
+    {
+       background-color: azure;
+       margin-top: 3%;
+       margin-left: 5%;
+       margin-bottom: 3%;
+       margin-right: 5%;
+    }
+    .button
+    {
+      background-color: aqua;
+      text-decoration: solid;
+    }
+    h1
+    {
+      color: red;
+    }
+    a
+    {
+      color: green;
+    }
+    audio
+    {
+      background-color: blue;
+      border-style: solid ;
+      border-color: yellowgreen;
+    }
+    video
+    {
+      cursor:grab;
+      border-color: blue;
+    }
+    img
+    {
+      image-orientation: flip;
+      align-items: horizontal ;
+    }
+  </style>
+  
+<body class="body" id="home" ><!--here we give the body id home-->
+  <!--This webpage is mostly emphasizing on links,images,images as links,video and audio and bookmarks-->
+  <h1>Home page</h1>
+  <!--this links takes you to the last page of the webpage-->
+  <p><a href="#last" title="go to last page">first page</a> </p>
+  <!--the index.html and the contactus.html takes you to the movie "The vampire diaries image" and "pirates 2005 image" respectively-->
+  <a href="#movie" title="indexhtml">index.html</a>
+  <br>
+  <a href="#pirates" title="click to open">contactus.html</a>
+  <br>
+  <!--visit aboutus opens a new page on a new window and from the new widow there is a link to this webpage home-->
+<a href="c:\Users\USER\3D Objects\S17.03129.23\html docs\movies.html"title="aboutus" target="_c:\Users\USER\3D Objects\S17.03129.23\html docs\movies.html">Visit aboutus</a>
+<br>
+<!--The google button is a link to a new webpage where you can access google-->
+<button class="button"><a href="https://www.google.com/" title="Go to google" target="https://www.google.com/">google</a></button>
+<br>
+<p><a href="#girl" title="Go to the girl in hoodie" >GIRL</a></p>
+<a href="#home"><img id="movie" title="THE VAMPIRE DIARIES" src="c:\Users\USER\Downloads\vampire diaries.jpg " alt="movie 'THE VAMPIRE DIARIES'" width="30%" height="20%"></a> <hr>
+<a href="#home"> <img id="girl" title="GIRL IN A HOODIE" src="c:\Users\USER\Downloads\img_girl.jpg " alt="GIRL IN A HOODIE" width="30%" height="20%"></a><hr>
+<br>
+<a href="#home"> <img id="pirates" title="PIRATES 2005" src="c:\Users\USER\Downloads\pirates 1.jpg"  alt="movie 'PIRATES 2005'" width="30%" height="20%"></a><hr>
+
+<video  width="50%" height="40%" controls title="ANNABELLE TRAILER">
+  <source src="c:\Users\USER\Videos\trailers\ANNABELLE COMES HOME Trailer (2019).mp4" type="video/mp4" >
+</video>
+<hr>
+<audio controls title="Camila Cabello shameless official mp3">
+  <source src="c:\Users\USER\Music\Playlists\Camila_Cabello_-_Shameless__Official_Video_(480p).mp3" type="audio/mp3">
+</audio>
+<hr>
+<!--this link takes you back to the top of the webpage-->
+<p id="last"><a href="#home" title="back to top">last page</a> </p>
+</body>
+
+</html>
